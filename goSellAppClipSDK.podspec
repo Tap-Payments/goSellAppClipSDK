@@ -3,10 +3,10 @@ Pod::Spec.new do |goSellAppClipSDK|
     goSellAppClipSDK.platform              = :ios
     goSellAppClipSDK.ios.deployment_target = '14.0'
 	goSellAppClipSDK.swift_versions        = ['4.0', '4.2', '5.0']
-    goSellAppClipSDK.name                  = 'goSellSDK'
-    goSellAppClipSDK.summary               = 'goSell SDK for iOS'
+    goSellAppClipSDK.name                  = 'goSellAppClipSDK'
+    goSellAppClipSDK.summary               = 'goSellAppClip SDK for iOS'
     goSellAppClipSDK.requires_arc          = true
-    goSellAppClipSDK.version               = '1.0.0'
+    goSellAppClipSDK.version               = '1.0.1'
     goSellAppClipSDK.license               = { :type => 'MIT', :file => 'LICENSE' }
     goSellAppClipSDK.author                = { 'Tap Payments' => 'hello@tap.company' }
     goSellAppClipSDK.homepage              = 'https://github.com/Tap-Payments/goSellAppClipSDK'
