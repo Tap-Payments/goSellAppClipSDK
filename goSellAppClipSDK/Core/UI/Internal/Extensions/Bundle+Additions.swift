@@ -14,7 +14,7 @@ internal extension Bundle {
             fatalError("There is no \(Constants.goSellSDKResourcesBundleName) bundle.")
         }
         
-        return Bundle(for: PaymentContentViewController.self)
+        return result
     }()
     
     private struct Constants {
