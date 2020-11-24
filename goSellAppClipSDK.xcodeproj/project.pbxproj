@@ -10,10 +10,7 @@
 		254FE2F5EA653C462A5F241D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D48A36713D147734DBC5999 /* Pods_Example.framework */; };
 		A28A1D3E2E2159ED52676CE2 /* Pods_goSellAppClipSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0629A24FF17ECA28F730122 /* Pods_goSellAppClipSDK.framework */; };
 		E81B958B256D0EF000AA22DC /* goSellAppClipSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E876D2C8256D0947005654A4 /* goSellAppClipSDK.framework */; };
-		E81B958C256D0EF000AA22DC /* goSellAppClipSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E876D2C8256D0947005654A4 /* goSellAppClipSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E81B9D06256D15C600AA22DC /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B9B5E256D15C500AA22DC /* Reporter.swift */; };
-		E81B9D07256D15C600AA22DC /* InterfaceOrientationManager+ErrorReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B9B60256D15C500AA22DC /* InterfaceOrientationManager+ErrorReporting.swift */; };
-		E81B9D08256D15C600AA22DC /* ErrorAction+ErrorReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B9B61256D15C500AA22DC /* ErrorAction+ErrorReporting.swift */; };
+		E81B958C256D0EF000AA22DC /* goSellAppClipSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E876D2C8256D0947005654A4 /* goSellAppClipSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E81B9F01256D1E3500AA22DC /* FadeAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B9D2C256D1E3400AA22DC /* FadeAnimationController.swift */; };
 		E81B9F02256D1E3500AA22DC /* PaymentDismissalAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B9D2D256D1E3400AA22DC /* PaymentDismissalAnimationController.swift */; };
 		E81B9F03256D1E3500AA22DC /* PaymentPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B9D2E256D1E3400AA22DC /* PaymentPresentationAnimationController.swift */; };
@@ -485,9 +482,6 @@
 		C0629A24FF17ECA28F730122 /* Pods_goSellAppClipSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goSellAppClipSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21552A7516E8FF82E1B83E2 /* Pods-goSellAppClipSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goSellAppClipSDK.debug.xcconfig"; path = "Target Support Files/Pods-goSellAppClipSDK/Pods-goSellAppClipSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		E511C2F7E25C5617E46DA547 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E81B9B5E256D15C500AA22DC /* Reporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
-		E81B9B60256D15C500AA22DC /* InterfaceOrientationManager+ErrorReporting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InterfaceOrientationManager+ErrorReporting.swift"; sourceTree = "<group>"; };
-		E81B9B61256D15C500AA22DC /* ErrorAction+ErrorReporting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ErrorAction+ErrorReporting.swift"; sourceTree = "<group>"; };
 		E81B9D2C256D1E3400AA22DC /* FadeAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeAnimationController.swift; sourceTree = "<group>"; };
 		E81B9D2D256D1E3400AA22DC /* PaymentDismissalAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDismissalAnimationController.swift; sourceTree = "<group>"; };
 		E81B9D2E256D1E3400AA22DC /* PaymentPresentationAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentPresentationAnimationController.swift; sourceTree = "<group>"; };
@@ -966,40 +960,6 @@
 				0A2B7C06975CF67B2AA32E94 /* Pods-goSellAppClipSDK.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E81B9B5B256D15C500AA22DC /* ErrorReporting */ = {
-			isa = PBXGroup;
-			children = (
-				E81B9B5C256D15C500AA22DC /* Internal */,
-			);
-			path = ErrorReporting;
-			sourceTree = "<group>";
-		};
-		E81B9B5C256D15C500AA22DC /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				E81B9B5D256D15C500AA22DC /* Classes */,
-				E81B9B5F256D15C500AA22DC /* Extensions */,
-			);
-			path = Internal;
-			sourceTree = "<group>";
-		};
-		E81B9B5D256D15C500AA22DC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E81B9B5E256D15C500AA22DC /* Reporter.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E81B9B5F256D15C500AA22DC /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				E81B9B60256D15C500AA22DC /* InterfaceOrientationManager+ErrorReporting.swift */,
-				E81B9B61256D15C500AA22DC /* ErrorAction+ErrorReporting.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E81B9D28256D1E3400AA22DC /* Core */ = {
@@ -1845,7 +1805,6 @@
 			isa = PBXGroup;
 			children = (
 				E81B9D28256D1E3400AA22DC /* Core */,
-				E81B9B5B256D15C500AA22DC /* ErrorReporting */,
 				E876D2CB256D0947005654A4 /* goSellAppClipSDK.h */,
 				E876D2CC256D0947005654A4 /* Info.plist */,
 			);
@@ -2120,7 +2079,6 @@
 				E81BA097256D1E3600AA22DC /* APIError.swift in Sources */,
 				E81BA06D256D1E3600AA22DC /* _ObjCMeasurement.swift in Sources */,
 				E81BA00F256D1E3600AA22DC /* SessionProtocol.swift in Sources */,
-				E81B9D06256D15C600AA22DC /* Reporter.swift in Sources */,
 				E81BA010256D1E3600AA22DC /* SessionAppearance.swift in Sources */,
 				E81B9F1E256D1E3500AA22DC /* GroupTableViewCellModel.swift in Sources */,
 				E81BA013256D1E3600AA22DC /* TapSerializationError.swift in Sources */,
@@ -2160,7 +2118,6 @@
 				E81B9F31256D1E3500AA22DC /* PaymentOptionTableCellViewModel.swift in Sources */,
 				E81B9F47256D1E3500AA22DC /* TextInputType.swift in Sources */,
 				E81B9F45256D1E3500AA22DC /* AppearanceMode.swift in Sources */,
-				E81B9D07256D15C600AA22DC /* InterfaceOrientationManager+ErrorReporting.swift in Sources */,
 				E81B9FD7256D1E3500AA22DC /* BindingWithModelCell.swift in Sources */,
 				E81B9F5C256D1E3500AA22DC /* UIFont+Additions.swift in Sources */,
 				E81B9F1B256D1E3500AA22DC /* AmountedCurrencyTableViewCellModel.swift in Sources */,
@@ -2325,7 +2282,6 @@
 				E81B9F9A256D1E3500AA22DC /* AsyncResponseViewController.swift in Sources */,
 				E81BA03B256D1E3600AA22DC /* Customer.Request.swift in Sources */,
 				E81B9F69256D1E3500AA22DC /* TapBlurEffectStyle+Additions.swift in Sources */,
-				E81B9D08256D15C600AA22DC /* ErrorAction+ErrorReporting.swift in Sources */,
 				E81B9F6D256D1E3500AA22DC /* UINavigationControllerPopInteractionController.swift in Sources */,
 				E81B9FFD256D1E3500AA22DC /* ProcessHandlerInterface.swift in Sources */,
 				E81BA047256D1E3600AA22DC /* APIClient+Authorize.swift in Sources */,
@@ -2529,6 +2485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2593,6 +2550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
