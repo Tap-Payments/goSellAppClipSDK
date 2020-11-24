@@ -1,0 +1,20 @@
+${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh
+${BUILT_PRODUCTS_DIR}/EditableTextInsetsTextFieldV2/EditableTextInsetsTextFieldV2.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/SwiftyRSA/SwiftyRSA.framework
+${BUILT_PRODUCTS_DIR}/TapAdditionsKitV2/TapAdditionsKitV2.framework
+${BUILT_PRODUCTS_DIR}/TapAlertViewControllerV2/TapAlertViewControllerV2.framework
+${BUILT_PRODUCTS_DIR}/TapApplicationV2/TapApplicationV2.framework
+${BUILT_PRODUCTS_DIR}/TapBundleLocalization/TapBundleLocalization.framework
+${BUILT_PRODUCTS_DIR}/TapCardValidator/TapCardValidator.framework
+${BUILT_PRODUCTS_DIR}/TapEditableViewV2/TapEditableViewV2.framework
+${BUILT_PRODUCTS_DIR}/TapErrorReportingV2/TapErrorReportingV2.framework
+${BUILT_PRODUCTS_DIR}/TapFontsKitV2/TapFontsKitV2.framework
+${BUILT_PRODUCTS_DIR}/TapGLKitV2/TapGLKitV2.framework
+${BUILT_PRODUCTS_DIR}/TapKeychain/TapKeychain.framework
+${BUILT_PRODUCTS_DIR}/TapNetworkManagerV2/TapNetworkManagerV2.framework
+${BUILT_PRODUCTS_DIR}/TapNibViewV2/TapNibViewV2.framework
+${BUILT_PRODUCTS_DIR}/TapResponderChainInputViewV2/TapResponderChainInputViewV2.framework
+${BUILT_PRODUCTS_DIR}/TapSearchViewV2/TapSearchViewV2.framework
+${BUILT_PRODUCTS_DIR}/TapSwiftFixesV2/TapSwiftFixesV2.framework
+${BUILT_PRODUCTS_DIR}/TapVisualEffectViewV2/TapVisualEffectViewV2.framework
