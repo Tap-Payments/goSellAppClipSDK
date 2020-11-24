@@ -1,0 +1,6 @@
+framework module goSellSDK {
+  umbrella header "goSellSDK-GoSellAppClip-umbrella.h"
+
+  export *
+  module * { export * }
+}

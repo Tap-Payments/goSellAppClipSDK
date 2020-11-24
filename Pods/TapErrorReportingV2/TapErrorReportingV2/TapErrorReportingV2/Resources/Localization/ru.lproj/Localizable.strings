@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  goSellSDK
+
+  Copyright © 2019 Tap Payments. All rights reserved.
+*/
+
+"alert_report_error_title"			= "Сообщить об ошибке";
+"alert_report_error_message"		= "Пожалуйста, сообщите об этой ошибке, чтобы улучшить работу приложения.";
+"alert_report_error_dont_ask_again"	= "Не спрашивать снова";
+"alert_report_error_btn_allow"		= "Сообщить";
+"alert_report_error_btn_dont_allow"	= "Не сообщать";
+
+"alert_report_error_success_title"			= "Успешно";
+"alert_report_error_success_message"		= "Отчёт успешно отправлен. Спасибо!";
+"alert_report_error_success_btn_dismiss"	= "Закрыть";

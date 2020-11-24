@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DontAskMeAgainView" customModule="TapErrorReporting">
+            <connections>
+                <outlet property="checkmarkLabel" destination="hP9-qO-Gi6" id="7nx-3p-p8y"/>
+                <outlet property="textLabel" destination="wZK-1i-1dW" id="Qc9-Pd-bKn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mfy-OT-toq">
+                    <rect key="frame" x="10" y="5" width="20" height="20"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hP9-qO-Gi6">
+                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Mfy-OT-toq" secondAttribute="height" multiplier="1:1" id="BKu-90-cVa"/>
+                        <constraint firstAttribute="bottom" secondItem="hP9-qO-Gi6" secondAttribute="bottom" id="LNE-0o-dyo"/>
+                        <constraint firstItem="hP9-qO-Gi6" firstAttribute="leading" secondItem="Mfy-OT-toq" secondAttribute="leading" id="YXU-kB-iQr"/>
+                        <constraint firstAttribute="width" constant="20" id="sZV-di-DP1"/>
+                        <constraint firstAttribute="trailing" secondItem="hP9-qO-Gi6" secondAttribute="trailing" id="syu-o9-AQB"/>
+                        <constraint firstItem="hP9-qO-Gi6" firstAttribute="top" secondItem="Mfy-OT-toq" secondAttribute="top" id="vLb-po-vPg"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="tap_cornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="tap_borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="tap_borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't ask me again" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZK-1i-1dW">
+                    <rect key="frame" x="40" y="5" width="325" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sH-tM-cGP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                    <connections>
+                        <action selector="buttonTouchUpInside:" destination="-1" eventType="touchUpInside" id="SVL-Lm-Uss"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="wZK-1i-1dW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="E1A-kR-ayL"/>
+                <constraint firstAttribute="trailing" secondItem="wZK-1i-1dW" secondAttribute="trailing" constant="10" id="M4L-Cr-EXP"/>
+                <constraint firstItem="wZK-1i-1dW" firstAttribute="leading" secondItem="Mfy-OT-toq" secondAttribute="trailing" constant="10" id="Mo6-hq-G6j"/>
+                <constraint firstAttribute="bottom" secondItem="wZK-1i-1dW" secondAttribute="bottom" constant="5" id="Qnc-w5-Gih"/>
+                <constraint firstAttribute="trailing" secondItem="4sH-tM-cGP" secondAttribute="trailing" id="S9d-wq-t7I"/>
+                <constraint firstItem="Mfy-OT-toq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="V0d-lQ-ylg"/>
+                <constraint firstItem="4sH-tM-cGP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Yry-hU-Hvz"/>
+                <constraint firstItem="Mfy-OT-toq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="eaJ-5e-laz"/>
+                <constraint firstItem="4sH-tM-cGP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fRx-Ak-m6x"/>
+                <constraint firstAttribute="bottom" secondItem="4sH-tM-cGP" secondAttribute="bottom" id="yfL-Bi-Xmw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="92" y="-158.32083958020991"/>
+        </view>
+    </objects>
+</document>
