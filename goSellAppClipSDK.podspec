@@ -6,7 +6,7 @@ Pod::Spec.new do |goSellAppClipSDK|
     goSellAppClipSDK.name                  = 'goSellAppClipSDK'
     goSellAppClipSDK.summary               = 'goSellAppClip SDK for iOS'
     goSellAppClipSDK.requires_arc          = true
-    goSellAppClipSDK.version               = '1.0.3'
+    goSellAppClipSDK.version               = '1.0.4'
     goSellAppClipSDK.license               = { :type => 'MIT', :file => 'LICENSE' }
     goSellAppClipSDK.author                = { 'Tap Payments' => 'hello@tap.company' }
     goSellAppClipSDK.homepage              = 'https://github.com/Tap-Payments/goSellAppClipSDK'
@@ -23,7 +23,7 @@ Pod::Spec.new do |goSellAppClipSDK|
 	goSellAppClipSDK.subspec 'Core' do |core|
 		
 		core.source_files			= 'goSellAppClipSDK/Core/**/*.{swift}'
-		core.ios.resource_bundle	= { 'goSellSDKResources' => ['goSellAppClipSDK/Core/UI/Internal/Resources/*.{xcassets,storyboard,xib,json}', 'goSellAppClipSDK/Core/UI/Internal/Resources/Localization/*.lproj'] }
+		core.ios.resource_bundle	= { 'goSellAppClipSDKResources' => ['goSellAppClipSDK/Core/UI/Internal/Resources/*.{xcassets,storyboard,xib,json}', 'goSellAppClipSDK/Core/UI/Internal/Resources/Localization/*.lproj'] }
 		
 		core.dependency 'EditableTextInsetsTextFieldV2'
 		core.dependency 'TapAdditionsKitV2'
