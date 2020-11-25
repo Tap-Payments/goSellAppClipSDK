@@ -130,5 +130,5 @@ Documentation is available at [github-pages][3].<br>
 Also documented sources are attached to the library.
 
 [1]:https://www.tap.company/developers/
-[2]:Example
+[2]:Example https://drive.google.com/file/d/1f_mYybSx19DiXcfUCKVhOEB3dsY8w5vV/view?usp=sharing
 [3]:https://tap-payments.github.io/goSellSDK-iOS/
